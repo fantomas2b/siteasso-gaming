@@ -1,0 +1,92 @@
+
+/* FOOTER */
+
+footer
+{
+    background: #121212;
+    background: -webkit-linear-gradient(#2E2E2E, #121212);
+    background: -o-linear-gradient(#2E2E2E, #121212);
+    background: -moz-linear-gradient(#2E2E2E, #121212);
+    background: linear-gradient(#2E2E2E, #121212);
+    box-shadow: 0px 0px 30px #121212;
+    -moz-box-shadow: 0px 0px 30px #121212;
+    -webkit-box-shadow: 0px 0px 30px #121212;
+    -o-box-shadow: 0px 0px 30px #121212;
+    border-bottom: 1px solid #b71c1c;
+    line-height: 64px;
+    height: 64px;
+}
+
+footer .row { margin-bottom: 0; }
+
+body
+{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main { flex: 1 0 auto; }
+
+
+/* FORMULAIRES */
+
+.input-field input:focus + label,
+.input-field textarea:focus + label,
+p a { color: #b71c1c !important; }
+
+.input-field input:focus,
+.input-field textarea:focus,
+input[type=text].valid:not(.browser-default),
+input[type=text].valid:not(.browser-default):focus,
+.select-wrapper.valid>input.select-dropdown {
+    border-bottom: 1px solid #b71c1c !important;
+    box-shadow: 0 1px 0 0 #B71B1B !important;
+}
+
+.switch label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[type="checkbox"] + label,
+[type="radio"]:not(:checked) + label,
+[type="radio"]:checked + label {
+    pointer-events: auto;
+}
+
+
+/* GENERAL */
+
+.cursor-default { cursor:default; }
+
+.switch label input[type=checkbox]:checked+.lever { background-color: #e57373; }
+.switch label input[type=checkbox]:checked+.lever:after { background-color: #b71c1c; }
+
+.btn-flat:focus { background-color: transparent; }
+
+.admin-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.admin-subtitle {
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 30px;
+}
+
+.admin-button {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.subtitle {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+a { color: #b71c1c; }
+
+#slider h2 { text-shadow: 0 0 5px black; }

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <!-- Analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109463474-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109463474-1');
+
+    </script>
+    <title>Site officiel de la Titoyma : Multigaming et Association</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1">
+    <meta name="viewport" content="maximum-scale=1">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+
+<body>
+
+     <header>
+        <div id="en_tete">
+            <a href="index.php">
+                <img id="logo" src="img/logosansfond.png" alt="Logo de la Team Titoyma" />
+                <h1>team <br>
+                    Titoyma</h1>
+            </a>
+        </div>
+  <nav>
+		<div id="container_menu">
+			<button id="icon_menu">&#9776;</button>
+      <ul id="menu">
+       <li><a href="index.html" class="onglets">PORTAIL</a></li>
+        <li><a href="sitegaming.html" class="onglets" >ACCUEIL</a></li>
+        <li><a href="#" class="onglets" >PRESENTATION</a>
+          <ul>
+            <li><a href="">RAPIDE</a></li>
+            <li><a href="membresasso.html">MEMBRES</a></li>
+          </ul>
+        </li>
+
+				</li>
+        <li><a href="#" class="onglets" >COMPETITION</a>
+          <ul>
+              <li><a href="lasergame.html">Laser Games</a></li>
+
+          </ul>
+        </li>
+				</li>
+                   <li><a href="soutenir.html" class="onglets" >DONATIONS</a></li>
+              </ul>
+    </div>
+  </nav>
+        <div id="menu-sidebar">
+            <div id="menu-sidebar-header"></div>
+            <div id="menu-sidebar-body"></div>
+        </div>
+        <div id="menu-overlay"></div>
+    </header>
+
+
+    <section id="introduction">
+        <h3>QUE REPRESENTE LES TITOYMA ?</h3>
+        <p>La team Itoyma est un <strong>regroupement de joueurs passionnés</strong> par les jeux vidéo en particulier dans le domaine du MOBA.
+            <strong>Créé en 2010</strong>, elle a débuté par une association de Lasergame puis est passé sur le volet suivant du jeu : League Of Legends.
+            Elle est constituée de joueurs de <strong>plusieurs régions du monde</strong> : France, Belgique, Suisse et Réunion.
+            Elle est devenue en 2015 une <strong>structure multigaming </strong>avec comme jeux principaux Realm Royal et League of legends
+            Au début constituée de seulement quelques membres, la structure compte aujourd'hui <strong>plus de 60 joueurs </strong>présents sur encore plus de jeux.</p>
+
+    </section>
+
+  
+        <footer>
+            <div>
+                <div id="container_footer">
+                    <div id="footer_txt">
+                        <p>
+                            <a href="legal_mention..html">Mentions légales</a> |
+                            <!--<a href="#">Status associatifs</a>-->
+
+                    </div>
+                    <div id="footer_img">
+                        <a href="" target="_blank" rel="nofollow"><img src="img/logo-FB.png" alt="Facebook" /></a>
+                        <a href="" target="_blank" rel="nofollow"><img src="img/logo-YT.png" alt="Youtube" /></a>
+                        <a href="" target="_blank" rel="nofollow"><img src="img/logo.TW.png" alt="Twitter" /></a>
+                    </div>
+                </div>
+                <p id="droit">© 2018 - 2019 TEAM TITOYMA<br>
+                    Tous droit réservés</p>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                console.log('ready');
+                $('.champ').focus(function() {
+                    var parent = $(this).parent();
+                    parent.find('.stroke').css("transition-property", "width");
+                    parent.find('.stroke').css("transition-duration", "1s");
+                    parent.find('.stroke').css("width", "101%");
+                });
+
+                $('.champ').blur(function() {
+                    var parent = $(this).parent();
+                    parent.find('.stroke').css("transition-property", "width");
+                    parent.find('.stroke').css("transition-duration", "1s");
+                    parent.find('.stroke').css("width", "0px");
+                });
+            });
+
+        </script>
+        <script type="text/javascript" src="js/header.js"></script>
+        <script type="text/javascript" src="js/cookie.js"></script>
+        
+</body>
+
+</html>

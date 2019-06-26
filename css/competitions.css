@@ -1,0 +1,103 @@
+#encadrement_banniere {
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.banniere {
+  min-height: 600px;
+  min-width: 500px;
+  max-width: 1500px;
+  display: flex; /* contexte sur le parent */
+  flex-direction: column; /* direction d'affichage verticale */
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.banniere p {
+  color: white;
+  font-size: 5.5em;
+  font-family: 'Arial';
+  font-weight:700;
+  letter-spacing: 3px;
+}
+
+#banniere_r6 {
+  background: url(../img/lol.jpg) center no-repeat;
+  background-size: cover;
+  margin-top: -100px;
+  margin-bottom: -140px;
+}
+
+#banniere_r6 p {
+  margin-left: 20%;
+}
+
+#banniere_rl {
+  background: url(../images/57937.jpg) center no-repeat;
+  background-size: cover;
+  margin-top: -140px;
+  margin-bottom: -140px;
+}
+
+#banniere_rl p {
+  text-align: right;
+  margin-right: 7%;
+}
+
+.container {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 78%;
+  line-height: 25px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.container h4 {
+  font-size: 3em;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.container h4:hover {
+  cursor: pointer;
+}
+
+.button {
+  height: 30px;
+  transform: rotate(90deg);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.first_ul {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.first_li {
+  margin-bottom: 30px;
+}
+
+.second_ul {
+  margin-top: 10px;
+  font-size: 0.75em;
+}
+
+#container_results strong {
+  font-weight: 600;
+}
